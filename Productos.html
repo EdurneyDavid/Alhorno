@@ -1,32 +1,60 @@
 <!doctype HTML>
+
 <style>
 body {
-      margin: 06
+      margin: 06;
       background-size: cover;
  background-color: pink;
       background-repeat: no-repeat;
       background-attachment: fixed;
       color: black;
     } 
-     .post {
+       .post {
             background-color: #fff;
             padding: 20px;
             margin-bottom: 20px;
-            border: 1px solid #ccc;
+            border: 8px solid #ccc;
         }
-      h1,h2 {
-            color: blue
+      h1, h2 {
+            color: purple;
+              background:orange;
+        width: 1075px;
+          border:10px solid;
       }
-      h1{
-            front-size: 40px;
+      h1 {
+            font-size: 45px;
       }
+  h2 {
+    font-size: 30px;
+  }
       a{
             color:orange;
       }
+  input[type="text"], input[type="email"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+}
+  body {
+    font-family: Arial, sans-serif;
+}
+h3 {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1,h2,h3 {
+    text-align: center;
+} ;
+      var nombre =  "Página web oficial de la pastelería Al horno!";
+
+var datos = document.getElementById("datos");
+datos.innerHTML = nombre;
+      
 </style>
 
-<div class="post"> <h2>¿Qué productos puedes encontrar?</h2>
- <ol><h3><li><b>PRODUCTOS DULCES</b></h3> 
+<div class="post"> 
+  <div id = "datos"></div>
+  <h2>¿Qué productos puedes encontrar?</h2>
+ <h3><b>PRODUCTOS DULCES</b></h3> 
   <ul><li>Brownies: Especialidad de la casa
     <li>Palmeras con y sin chocolate
 <li>Donuts 
@@ -37,7 +65,7 @@ body {
 <li>Churros
 <li>Según la época del año ofrecemos dulces típicos como roscós de reyes, torrijas,etc. </ul></p>
 <img src="https://canalcocina.es/medias/images/0001083606QuiqueAlCuboT02E021HDonuts-de-galletasCLEAN01.jpg" width="200" height="150"/>  <img src="https://www.cuerpomente.com/medio/2023/05/04/brownie-recetas-saludables_6e41a648_230504111738_1280x720.jpg" width="250" height="150"/>  <img src="https://gastronomiaycia.republica.com/wp-content/uploads/2017/05/receta_mejor_croissant1.jpg" width="200" height="150"/></div>
- <div class="post"> <h3><li>PRODUCTOS SALADOS</h3> En nuestra sección salada destacan los siguientes productos:<p>
+ <div class="post"> <h3>PRODUCTOS SALADOS</h3> En nuestra sección salada destacan los siguientes productos:<p>
     <ul><li>Pan.
 <li>Croissants rellenos de jamón y queso.
       <li>Napolitana rellena de jamón y queso.
@@ -48,8 +76,8 @@ body {
  <img src="https://www.rebanando.com/media/_dsc0599_crop.jpg/rh/empanada-atun.jpg"width="200" height="150"/> 
 <img src="https://www.annarecetasfaciles.com/files/paninis-miniatura-youtube.jpg"width="250" height="150"/> 
    </p>
+   <div id = "enlaces"></div>
      <a href= "index.html"> Página principal<a/>
 <a href= "Ofertas.html"> Nuestras ofertas<a/> 
-<a href= "Encuesta.html"> Encuestas e interés<a/>
+<a href= "Encuestas.html"> Encuestas e interés<a/>
    </div>
-  
