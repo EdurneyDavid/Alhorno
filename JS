@@ -1,0 +1,4 @@
+var nombre =  "Página web oficial de la pastelería Al horno!";
+
+var datos = document.getElementById("datos");
+datos.innerHTML = nombre;
